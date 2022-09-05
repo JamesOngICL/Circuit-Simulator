@@ -5,7 +5,7 @@ Team Members : Marco, Weihan , James
 Start Date: 11/5/2021
 End Date: 13/6/2021
 
-Abstract: 
+# Abstract: 
 
 The objective of this project was to implement a circuit simulator that performs AC analysis on a given circuit, 
 returning the magnitude and phase of a transfer function over a range of stepped frequencies to form bode plots. 
@@ -28,7 +28,7 @@ As reactive components such as inductors have different conductances for differe
 system needs to be solved for every given frequency defined by the simulation command during AC analysis, giving us the
 necessary output data to form the bode plots.
 
-Details:
+# Details:
 
 Over the past month we’ve built a circuit simulator that can perform AC analysis on circuits containing linear and non-linear devices. 
 Our aim was to design a circuit simulator that conducts an AC simulation with an accuracy of at least 95% compared to LTSpice within 
@@ -60,7 +60,7 @@ taken to solve the system for nodal voltages.
 
 
 
-Files Details:
+# Files Details:
 
 Main.cpp - This contains the circuit simulator software. To test it, first write a .txt file containing a reduced netlist format.
 Then, run the program, input the file name (i.e. netlist_bjt.txt), node number (i.e. 3), and source (i.e. V1).
@@ -87,7 +87,7 @@ netlist_xxx - netlist files that contains the reduced spice format of a circuit.
 
 
 
-Github Naming Convention:
+# Github Naming Convention:
 
 Stable - stable	- Accepts merges from Working and Hotfixes
 Working - master - Accepts merges from Features/Issues and Hotfixes
